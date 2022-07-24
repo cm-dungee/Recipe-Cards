@@ -1,0 +1,131 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #3B3B3B;
+}
+body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #DAF7F6;
+}
+/**----------------------------------------------------------------------------------**/
+/**HEADER**/
+header {
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 20px;
+	margin: auto;
+}
+#chef-hat {
+	margin-right: 20px
+}
+h1 {
+	font: 48px 'Montserrat', sans-serif;
+	color: #F16059;
+	text-transform: uppercase;
+	display: inline;
+}
+/**----------------------------------------------------------------------------------**/
+/**RECIPE CARDS**/
+main {
+	width: 1000px;
+	margin: auto;
+}
+.recipe-card {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	overflow: auto;
+}
+.recipe-image {
+	width: 500px;
+	height: 550px;
+	float: left;
+	background-color: #FFFFFF;
+}
+.recipe-details {
+	width: 500px;
+	height: 550px;
+	background-color: #FFFFFF;
+	float: right;
+	padding: 20px;
+}
+h2 {
+	font: 24px 'Montserrat', sans-serif;
+	color: #F16059;
+	text-transform: uppercase;
+	margin: 0px;
+}
+.time-details {
+	padding-top: 20px;
+}
+.time-details div {
+	float: left;
+	border-top: 1px solid #3B3B3B;
+	border-bottom: 1px solid #3B3B3B;
+	border-left: 1px solid #3B3B3B;
+	padding: 4px;
+	width: 33%;
+}
+.recipe-icon {
+	width: 15px;
+	height: 15px;
+	vertical-align: sub;
+}
+span {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+.time-details p {
+	display: inline;
+	margin-left: 2px;
+}
+.right-border {
+	border-right: 1px solid #3B3B3B;
+}
+.recipe-description  {
+	margin-top: 40px;
+}
+}
+.columns {
+	width: 100%;
+	float: left;
+	border: 1px dotted red;
+}
+.left {
+	float: left;
+	width: 48%;
+}
+.right {
+	float: right;
+	width: 48%;
+}
+
+.sub-heading {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #F16059;
+	border-top: 1px solid #3B3B3B;
+	border-bottom: 1px solid #3B3B3B;
+	padding-top: 3px;
+	padding-bottom: 10px;
+}
+ul, ol {
+	padding-left: 20px;
+	line-height: 21px;
+}
+#cookies {
+	background-image: url("../img/gluten-free-sugar-cookies.jpg");
+	background-size: cover;
+}
+#pesto {
+	background-image: url("../img/nut-free-pesto.jpg");
+	background-size: cover;
+}
+#salad {
+	background-image: url("../img/watermelon-salad.jpg");
+	background-size: cover;
+}
